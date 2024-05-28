@@ -32,11 +32,11 @@ const DEFAULT_SKIP_TESTS_PACKAGES = [
 const SKIP_TEST_PACKAGES: Record<NodeVersion, VersionConfig> = {
   '14': {
     ignoredPackages: ['@sentry/sveltekit', '@sentry/vercel-edge', '@sentry/astro'],
-    legacyDeps: ['lerna@7.1.1', 'nx@16.4.1'],
+    legacyDeps: ['lerna@7.1.1', 'nx@16.4.1', '@nx/devkit@16.4.1'],
   },
   '16': {
     ignoredPackages: ['@sentry/vercel-edge', '@sentry/astro'],
-    legacyDeps: ['lerna@7.1.1', 'nx@16.4.1'],
+    legacyDeps: ['lerna@7.1.1', 'nx@16.4.1', '@nx/devkit@16.4.1'],
   },
   '18': {
     ignoredPackages: [],
