@@ -7127,22 +7127,22 @@
   dependencies:
     "@sentry-internal/rrweb-snapshot" "2.11.0"
 
-"@sentry-internal/rrdom@2.21.0":
-  version "2.21.0"
-  resolved "https://registry.yarnpkg.com/@sentry-internal/rrdom/-/rrdom-2.21.0.tgz#ae27b27b70063ec3b7bd908e915db06b26c4115c"
-  integrity sha512-7uI8sVwvktI4lW03eIXSsswHBXFdlK7fGa/HMjMuTToGUT/k5USGBOhhqY9FPllAAI1DT4dOWLR/up0ZiDlPdA==
+"@sentry-internal/rrdom@2.22.0":
+  version "2.22.0"
+  resolved "https://registry.yarnpkg.com/@sentry-internal/rrdom/-/rrdom-2.22.0.tgz#464a70c5c0949d1684fa9e9ac3c3f5d01312f434"
+  integrity sha512-dcTFNxrjqABV9/6JANmxBgyb1jrWey0JJ/Ss2U8/MRaTq0GYLbf6/iGMaciH6NOGT9Fc1CYjkKDh7HllPWTQ1A==
   dependencies:
-    "@sentry-internal/rrweb-snapshot" "2.21.0"
+    "@sentry-internal/rrweb-snapshot" "2.22.0"
 
 "@sentry-internal/rrweb-snapshot@2.11.0":
   version "2.11.0"
   resolved "https://registry.yarnpkg.com/@sentry-internal/rrweb-snapshot/-/rrweb-snapshot-2.11.0.tgz#1af79130604afea989d325465b209ac015b27c9a"
   integrity sha512-1nP22QlplMNooSNvTh+L30NSZ+E3UcfaJyxXSMLxUjQHTGPyM1VkndxZMmxlKhyR5X+rLbxi/+RvuAcpM43VoA==
 
-"@sentry-internal/rrweb-snapshot@2.21.0":
-  version "2.21.0"
-  resolved "https://registry.yarnpkg.com/@sentry-internal/rrweb-snapshot/-/rrweb-snapshot-2.21.0.tgz#cdee3841c03b049c452ae5d3edde7ba71b532827"
-  integrity sha512-urT976xKCwn0Kjx0tYwsaIB+KsXH4/oLa0FgGExuAm6ryH6rkj/K/PIUtKsyFa8k/qk+f4UTWRj5RISaJReVJA==
+"@sentry-internal/rrweb-snapshot@2.22.0":
+  version "2.22.0"
+  resolved "https://registry.yarnpkg.com/@sentry-internal/rrweb-snapshot/-/rrweb-snapshot-2.22.0.tgz#28e274331bb062ddf81111d8906c0a286d48b162"
+  integrity sha512-bIe7kyS8ZBWFdmk36LgCI6iNnGV/SR1B+bqNbfwrG4OlB87mVO3BWevKise9+qEaNrtFeG4FyzaeB3L9KjjQMw==
 
 "@sentry-internal/rrweb-types@2.11.0":
   version "2.11.0"
@@ -7151,14 +7151,13 @@
   dependencies:
     "@sentry-internal/rrweb-snapshot" "2.11.0"
 
-"@sentry-internal/rrweb-types@2.21.0":
-  version "2.21.0"
-  resolved "https://registry.yarnpkg.com/@sentry-internal/rrweb-types/-/rrweb-types-2.21.0.tgz#82a92262e972a7ff60f5b5d2c51d26f107c49a35"
-  integrity sha512-J0820cBJZXIg2oLMg+PtQXLq2yzgaCjHg+Ht5ZAN75BiIpgMU/m92MusQMtYPK9HmseKtEQOzt0RVCaP5/++sA==
+"@sentry-internal/rrweb-types@2.22.0":
+  version "2.22.0"
+  resolved "https://registry.yarnpkg.com/@sentry-internal/rrweb-types/-/rrweb-types-2.22.0.tgz#37b89d0be5da98162a2177d9f6a43efe38d17420"
+  integrity sha512-QNFUKf3lLEatiwcm+bVJrX478kGGTWOrWumf6rnNLT/YKgF4yuZekv478dYu6pvydw/hfl9WIR8dE6L8J6I0mQ==
   dependencies:
-    "@sentry-internal/rrweb-snapshot" "2.21.0"
+    "@sentry-internal/rrweb-snapshot" "2.22.0"
     "@types/css-font-loading-module" "0.0.7"
-    downlevel-dts "https://github.com/getsentry/downlevel-dts"
 
 "@sentry-internal/rrweb@2.11.0":
   version "2.11.0"
@@ -7174,14 +7173,14 @@
     fflate "^0.4.4"
     mitt "^3.0.0"
 
-"@sentry-internal/rrweb@2.21.0":
-  version "2.21.0"
-  resolved "https://registry.yarnpkg.com/@sentry-internal/rrweb/-/rrweb-2.21.0.tgz#7d1c38306d4584d888be1949efa308a25fc7ddc9"
-  integrity sha512-KwJ1KuqKrOm81xIUMuFsuIQADNNlt/Dct54T1XMHMCc1TyMt1mB+BkICXBUSXaJ2ch9RHLeZMrIig+Qq75TKfA==
+"@sentry-internal/rrweb@2.22.0":
+  version "2.22.0"
+  resolved "https://registry.yarnpkg.com/@sentry-internal/rrweb/-/rrweb-2.22.0.tgz#2a7bf421cd9d6b13855e3f37f2197a1c66d1ef1c"
+  integrity sha512-EBlINAN8acig/8840uKk5/8RT5CAvvzn0tyqrk3Xr2UahYnw37xU211anzZqbIS5BwST1cJw9lJBE3xoYBIGHA==
   dependencies:
-    "@sentry-internal/rrdom" "2.21.0"
-    "@sentry-internal/rrweb-snapshot" "2.21.0"
-    "@sentry-internal/rrweb-types" "2.21.0"
+    "@sentry-internal/rrdom" "2.22.0"
+    "@sentry-internal/rrweb-snapshot" "2.22.0"
+    "@sentry-internal/rrweb-types" "2.22.0"
     "@types/css-font-loading-module" "0.0.7"
     "@xstate/fsm" "^1.4.0"
     base64-arraybuffer "^1.0.1"
@@ -14451,14 +14450,6 @@ dotenv@~10.0.0:
   version "10.0.0"
   resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-10.0.0.tgz#3d4227b8fb95f81096cdd2b66653fb2c7085ba81"
   integrity sha512-rlBi9d8jpv9Sf1klPjNfFAuWDjKLwTIJJ/VxtoTwIR6hnZxcEOQCZg2oIL3MWBYw5GpUDKOEnND7LXTbIpQ03Q==
-
-"downlevel-dts@git+https://github.com/getsentry/downlevel-dts.git":
-  version "0.11.0"
-  resolved "git+https://github.com/getsentry/downlevel-dts.git#26342728379689259f494d79053272c6f2f0ea14"
-  dependencies:
-    semver "^7.3.2"
-    shelljs "^0.8.3"
-    typescript next
 
 downlevel-dts@~0.11.0:
   version "0.11.0"
