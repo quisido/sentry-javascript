@@ -4,6 +4,10 @@
 
 - "You miss 100 percent of the chances you don't take. — Wayne Gretzky" — Michael Scott
 
+## 8.11.0-alpha.0
+
+This pre-release includes an `rrweb` [version bump](https://github.com/getsentry/sentry-javascript/pull/12478) that includes quite a few upstream changes. We will test this on Sentry before a release.
+
 ## 8.10.0
 
 ### Important Changes
